@@ -14,7 +14,8 @@ const authRoutes = require('./routes/authRoutes');
 dotenv.config();
 
 // Connect to database
-connectDB();
+// Connect to database removed from here for serverless optimization
+// connectDB();
 
 const app = express();
 
